@@ -2,8 +2,8 @@
 Command line C++ application that performs lossless file compression and decompression using Huffman Coding with binary bit-packing to reduce storage space.
 <h1>Features</h1>
 <ul>
-  <li>Lossless compression using **Huffman Tree**</li>
-  <li>Supports **any text file** (ASCII content)</li>
+  <li>Lossless compression using Huffman Tree</li>
+  <li>Supports any text file (ASCII content)</li>
   <li>Efficient encoding/decoding using 'bitset', 'map', priority_queue'</li>
 </ul>
 <h1>Working</h1>
@@ -28,7 +28,7 @@ Command line C++ application that performs lossless file compression and decompr
   <h4>File I/O Mode: ios::binary for raw byte-level operations</h4>
 <h1>Outcome</h1>
 <ul>
-  <li>Original file hello.txt is 11kb</li>
-  <li>After compression hello.txt.huff is 7kb</li>
+  <li>Original file hello.txt is of 11kb</li>
+  <li>After compression hello.txt.huff is of 7kb</li>
   <li>Now after decompression we get hello.txt_decoded which is same as original one and of 11kb</li>
 </ul>
