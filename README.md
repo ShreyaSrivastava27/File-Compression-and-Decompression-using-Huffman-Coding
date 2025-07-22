@@ -26,3 +26,9 @@ Command line C++ application that performs lossless file compression and decompr
    <h4>Language: C++</h4>
   <h4>STL: priority_queue, map, bitset, ifstream, ofstream</h4>
   <h4>File I/O Mode: ios::binary for raw byte-level operations</h4>
+<h1>Outcome</h1>
+<ul>
+  <li>Original file hello.txt is 11kb</li>
+  <li>After compression hello.txt.huff is 7kb</li>
+  <li>Now after decompression we get hello.txt_decoded which is same as original one and of 11kb</li>
+</ul>
