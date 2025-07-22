@@ -23,6 +23,6 @@ Command line C++ application that performs lossless file compression and decompr
   <li>Decode the binary stream</li>
 </ul>
 <h1>Technologies used</h1>
-   **Language:** C++
-  **STL:** 'priority_queue', 'map', 'bitset', 'ifstream', 'ofstream'
-  **File I/O Mode:** ios::binary' for raw byte-level operations
+   <h4>Language: C++</h4>
+  <h4>STL: 'priority_queue', 'map', 'bitset', 'ifstream', 'ofstream'</h4>
+  <h4>File I/O Mode: ios::binary' for raw byte-level operations</h4>
