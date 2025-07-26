@@ -19,7 +19,7 @@ public:
 class compare {
 public:
     bool operator()(Node* a, Node* b) {
-        return a->freq > b->freq;  // min-heap-> overwrites the operator fun and ensure a will have less priority than b that means min heap
+        return a->freq > b->freq;  // min-heap-> overloads the operator () to compare Node* and ensure a will have less priority than b that means min heap
     }
 };
 
